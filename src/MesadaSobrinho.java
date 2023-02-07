@@ -15,6 +15,8 @@ public class MesadaSobrinho {
         int entrada = leitor.nextInt();
         int saida = entrada * mesada;
         System.out.println("Voce tera " + saida + " reais");
+
+        leitor.close();
        
     }  
 }
